@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ENetWork (0.1.0):
+    - Alamofire (~> 4.9.1)
+    - EUtils
+    - KeychainAccess (~> 4.1.0)
+    - SwiftyJSON (~> 5.0.0)
+  - EUtils (0.1.0):
+    - KeychainAccess
+  - KeychainAccess (4.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - ENetWork (from `../`)
+
+SPEC REPOS:
+  http://git.hypersmart.cc/hypersmart/platform/ios-group/podspecs.git:
+    - EUtils
+  https://github.com/CocoaPods/Specs.git:
+    - KeychainAccess
+    - SwiftyJSON
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  ENetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ENetWork: 0316feace71c7c3436d344e884c7bcb4f5b3b43b
+  EUtils: 3878e373dde1a9ff299f84f9f8422a90873d2d9e
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: ecf2798e769c5a9dc3d53c646d2e93f5031fd089
+
+COCOAPODS: 1.9.3

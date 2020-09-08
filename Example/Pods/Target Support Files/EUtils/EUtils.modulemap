@@ -1,0 +1,6 @@
+framework module EUtils {
+  umbrella header "EUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

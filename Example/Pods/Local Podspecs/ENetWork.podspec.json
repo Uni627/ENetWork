@@ -1,0 +1,41 @@
+{
+  "name": "ENetWork",
+  "version": "0.1.0",
+  "summary": "A short description of ENetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1519890585@qq.com/ENetWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1519890585@qq.com": "chao.luo@einyun.com"
+  },
+  "source": {
+    "git": "https://github.com/1519890585@qq.com/ENetWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ENetWork/Classes/**/*",
+  "swift_versions": "5.0",
+  "resources": [
+    "EUI/Resources/*"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.9.1"
+    ],
+    "SwiftyJSON": [
+      "~> 5.0.0"
+    ],
+    "KeychainAccess": [
+      "~> 4.1.0"
+    ],
+    "EUtils": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
