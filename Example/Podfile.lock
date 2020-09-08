@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - ENetWork (0.1.0):
+  - ENetWork (0.1.2):
     - Alamofire (~> 4.9.1)
     - EUtils
     - KeychainAccess (~> 4.1.0)
@@ -28,7 +28,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ENetWork: 0316feace71c7c3436d344e884c7bcb4f5b3b43b
+  ENetWork: bab478b60d0461310be524ff11b1568b12d13c90
   EUtils: 3878e373dde1a9ff299f84f9f8422a90873d2d9e
   KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
