@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ENetWork_Example' do
+  pod 'ENetWork', :path => '../'
+
+  target 'ENetWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
